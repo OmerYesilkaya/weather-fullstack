@@ -1,0 +1,13 @@
+@base = http://localhost:3000
+
+### Create
+POST {{base}}/api/test
+Content-Type: application/json
+
+{
+    "field1": "value",
+}
+
+### Get
+GET {{base}}/api/test
+Content-Type: application/json
